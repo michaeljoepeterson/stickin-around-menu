@@ -9,7 +9,6 @@ export const MenuContainer = () => {
                 <div>
                     Appetizers
                 </div>
-                <div className="text-center">$9</div>
             </MainHeader>
         </div>
     )
