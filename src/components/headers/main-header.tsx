@@ -4,11 +4,13 @@ import { ReactNode } from "react";
 const font = Send_Flowers({ subsets: ["latin"], weight: '400' });
 
 export const MainHeader = ({
-    children
+    children,
+    className
 }: {
-    children: ReactNode
+    children: ReactNode,
+    className?: string;
 }) => {
-    const baseClasses = `${font.className} text-2xl lg:text-4xl`
+    const baseClasses = `${font.className} text-2xl lg:text-4xl ${className ? className : ''}`
     return (
         <h2 className={baseClasses}>
             {children}
