@@ -39,7 +39,7 @@ export const MenuContainer = () => {
     ];
 
     return (
-        <div className="border-2 border-jd-main flex flex-col items-center m-8 lg:mx-28 p-2 lg:p-0 relative">
+        <div className="border-2 border-jd-main flex flex-col items-center m-8 lg:mx-28 p-2 lg:p-0 relative mb-0">
             <MenuHeader />
             <div className="absolute left-[-1em] top-[3em] 2xl:left-[8em] lg:left-[-5em] lg:top-5">
                 <MenuImage 
