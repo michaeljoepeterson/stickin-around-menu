@@ -31,7 +31,7 @@ export const SiteHeader = () => {
                             height="0"
                             className="w-1/3"
                         />
-                        <span className="lg:text-lg">
+                        <span className="text-sm lg:text-lg">
                             Follow us on Instagram
                         </span>
                     </a>
