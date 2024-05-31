@@ -18,14 +18,14 @@ export const MenuItem = ({
             <SecondaryHeader>
                 {name}
             </SecondaryHeader>
-            <p>
+            <p className="text-[0.80em] lg:text-lg">
                 {description}
             </p>
-            <p>
+            <p className="text-[0.80em] lg:text-lg">
                 {subDescription}
             </p>
             {thirdDescription ? (
-                <p>
+                <p className="text-[0.80em] lg:text-lg">
                     {thirdDescription}
                 </p>
             ) : null}
