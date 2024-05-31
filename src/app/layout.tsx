@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
+import { SiteHeader } from "@/components/site-header/site-header";
 
 const baseFont = Open_Sans({ subsets: ["latin"] });
 
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={baseFont.className}>{children}</body>
+      <body className={baseFont.className}>
+        <SiteHeader />
+        {children}
+      </body>
     </html>
   );
 }
