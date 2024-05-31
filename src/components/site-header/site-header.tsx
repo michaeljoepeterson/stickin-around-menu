@@ -26,7 +26,7 @@ export const SiteHeader = () => {
                     >
                         <Image 
                             src="assets/Insta.svg"
-                            alt="Diane's Place Logo"
+                            alt="Instagram logo"
                             width="0"
                             height="0"
                             className="w-1/3"

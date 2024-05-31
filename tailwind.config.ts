@@ -15,6 +15,9 @@ const config: Config = {
       },
       colors: {
         "jd-main": "#d6483a"
+      },
+      screens: {
+        '2xl': '2030px'
       }
     },
   },
