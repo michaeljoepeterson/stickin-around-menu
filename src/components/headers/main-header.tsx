@@ -8,8 +8,9 @@ export const MainHeader = ({
 }: {
     children: ReactNode
 }) => {
+    const baseClasses = `${font.className} text-2xl lg:text-4xl`
     return (
-        <h2 className={font.className}>
+        <h2 className={baseClasses}>
             {children}
         </h2>
     )
