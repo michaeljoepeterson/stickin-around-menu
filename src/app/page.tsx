@@ -2,7 +2,7 @@ import { MenuContainer } from "@/components/menu/menu-container";
 
 export default function Home() {
   return (
-    <main className="p-10">
+    <main className="">
       <MenuContainer/>
     </main>
   );
